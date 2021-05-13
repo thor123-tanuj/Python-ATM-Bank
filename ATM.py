@@ -26,4 +26,4 @@ elif (activity == 2):
     amount = int(input("enter the amount:- "))
     new_user.withdrawl(amount)
 else:
-    print("enter a valid number")
+    print("Enter a Valid Number")
