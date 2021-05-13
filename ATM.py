@@ -12,13 +12,13 @@ class Atm:
 
 
 
-Card_number = input("insert your card number:- ")
-pin_number  = input("enter your pin number:- ")
+Card_number = input("Insert your Card Number:- ")
+pin_number  = input("Enter your Pin Number:- ")
 
 new_user =  Atm(Card_number ,pin_number)
 print("Choose your activity ")
 print("1.Balance Enquriy   2.withdrawl")
-activity = int(input("enter activity number :- "))
+activity = int(input("Enter Activity Number :- "))
 
 if (activity == 1):
     new_user.check_balance()
